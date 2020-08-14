@@ -1,0 +1,71 @@
+/* CSS files add styling rules to your content */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Questrial', sans-serif;
+  margin: 2em;
+  background: #F8F9FA;
+}
+
+h1 {
+  display: flex;
+  color: #212529;
+  justify-content: center;
+  background: #ADB5BD;
+  padding: 20px;
+  border-bottom: 4px solid #253237;
+}
+
+h2 {
+  color: #343A40;
+  margin-top: 2em; 
+}
+
+.question {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div.answer-choice:hover {
+  border: 2px solid #CED4DA;
+}
+  
+.answer-choice img {
+  height: 15em;
+}
+
+.answer-choice button {
+  height: 20em;
+  background: white;
+}
+
+.answer-choice p {
+  display: flex;
+  height: 170px;
+  width: 170px;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Questrial';
+}
+#restart {
+  background-color: #5c6b73;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Questrial';
+  font-size: 16px;
+}
